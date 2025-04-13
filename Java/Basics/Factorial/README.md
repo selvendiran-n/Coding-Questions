@@ -32,8 +32,7 @@ Write a program to calculate the **factorial of a non-negative integer** `n`.
 **Function Signature**: 
 ```java
 public static long factorial(int n)
-
-
+```
 
 ### 2. Recursive Approach - `RecursiveFactorial.java`
 
@@ -45,24 +44,23 @@ public static long factorial(int n)
     - Requires O(n) space for the function call stack during recursion.
 
 **Function Signature**: 
-    ```java
+ ```java
 public static long factorial(int n)
+```
 
----
-
-
-📉 Performance Considerations:
+# Performance Considerations:
 - Recursion Depth: Recursive methods use the stack for function calls. If the input value n is too large, you might encounter a StackOverflowError. For such cases, the iterative method would be preferred to avoid deep recursion.
 
-Memory Usage:
+# Memory Usage:
 - The recursive method requires more memory due to function call stack space, which can become problematic for large values of n.
 
-💡 BigInteger
+# 💡 BigInteger
 - If you expect very large numbers (beyond the range of long), Java BigInteger class   is recommended. BigInteger can handle numbers with arbitrary precision and will allow the calculation of factorials that exceed the storage capabilities of primitive types like int or long.
 
 
 **Function Signature**: 
 ```java
 public static BigInteger factorial(int n)
+```
 
 

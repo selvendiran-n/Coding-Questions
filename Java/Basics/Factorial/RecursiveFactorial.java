@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// This program calculates factorial of a number using recursion
+// This program calculates factorial of a given number using recursion
 public class RecursiveFactorial {
 
     // Recursive method to calculate factorial

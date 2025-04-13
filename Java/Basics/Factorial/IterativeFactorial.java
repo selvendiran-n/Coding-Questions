@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// This program calculates factorial of a number using iteration (loop)
+// This program calculates factorial of a given number using iteration (loop)
 public class IterativeFactorial {
 
     // Method to calculate factorial using a for loop
